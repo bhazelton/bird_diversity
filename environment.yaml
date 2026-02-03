@@ -1,0 +1,8 @@
+name: bird_diversity
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pytest
+  - pytest-cov
+  - ruff

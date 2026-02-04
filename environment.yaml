@@ -6,3 +6,4 @@ dependencies:
   - pytest
   - pytest-cov
   - ruff
+  - setuptools_scm>=8.1

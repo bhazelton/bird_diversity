@@ -1,16 +1,22 @@
 [build-system]
-requires = ["setuptools >= 77.0.3"]
+requires = ["setuptools >= 77.0.3", "setuptools_scm>=8.1",]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "bird_diversity"
-version = "0.0.0"
+dynamic = ["version"]
 description ="Bird Diversity experiment example"
 dependencies = [
     "numpy",
     "pytest",
-    "pytest-cov"
+    "pytest-cov",
+    "setuptools_scm>=8.1",
 ]
+
+[tool.setuptools_scm]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
 
 # Optional upgrades beyond the default ruff rules
 # [tool.ruff.lint]

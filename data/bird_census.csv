@@ -1,0 +1,59 @@
+﻿Species,A,B,C,E,F,G,H,I,J,K,L,M
+mourning dove                ,,,,,,,,,,,,1
+yellow billed cuckoo         ,,,,,,,,,0.5,,,
+ruby throated hummingbird            ,,,,,0.5,,,,,,,0.5
+flicker                      ,,,1,,,,,,,1,,0.5
+red-bellied wood pecker      ,,,,,,,,,0.5,,,
+yellow-bellied sapsucker     ,,,,,,,1,,,,,
+hairy woodpecker             ,,,,,,1,0.5,,,,,
+downy woodpecker             ,,,,,,,,,,1,,
+crested flycatcher           ,,,,,,,,1,1,,1,
+acadian flycatcher           ,,,,,,,,,1.5,,,
+wood pewee                   ,,,,,,,,,,2,2,1
+olivesided flycatcher        ,,,,,,,1.5,,,,,
+blue jay                     ,,,,,,,,,,1,1,0.5
+black-capped chickadee       ,,,,,1,,0.5,,,,,
+tufted titmouse              ,,,,,,,,,1.5,1.5,1,1
+white-breasted nuthatch      ,,,,,,1,,,,,1,
+brown creeper                ,,,,,1,,,,,,,
+winter wren                  ,,,,,,,1,,,,,
+catbird                      ,,,1,,,,,,,1,,1
+robin                        ,,,,,0.5,,0.5,,,,,
+wood thrush                  ,,,,,,,,,,,1,1.25
+olive-backed thrush          ,,,,,,2,,,,,,
+veery thrush                 ,,,,,,,1,,,,,
+gnatcatcher                  ,,,,,,,,1,,,,
+golden-crowned kinglet       ,,,,,1,,,,,,,
+white-eyed vireo             ,,,,,,,,,1,,,
+yellow-throated vireo        ,,,,,,,,1,,,,
+red-eyed vireo               ,,,,,1,3,1,,2.5,2,4,1
+black and white warbler      ,,,,,,,0.5,,,,,
+prothonotary warbler         ,,,,,,,,,2,,,
+blue-winged warbler          ,,,0.5,,,,,,,,,
+Nashville warbler            ,,,,,,,1,,,,,
+parula warbler               ,,,,,,,,,1,,,
+magnolia warbler             ,,,,0.5,1.5,,1.5,,,,,
+black-throated blue warbler  ,,,,,,1,,,,,,
+myrtle warbler               ,,,,2,,,5,,,,,
+black-throated green warbler ,,,,5,1,,,,,,,
+blackburnian warbler         ,,,,1,2,1,,,,,,
+bay-breasted warbler         ,,,,3,,,,,,,,
+prairie warbler              ,,,2,,,,,,,,,
+ovenbird                     ,,,,,1.5,,,,,3,3,
+Kentucky warbler             ,,,,,,,,,1,1,1,0.5
+mourning warbler             ,,,,,,,0.75,,,,,
+yellowthroat                 ,,1,2.5,,,,3,,,,,2
+yellow-breasted chat         ,,,2,,,,,,,,,
+Canada warbler               ,,,,,,,2,,,,,
+redstart                     ,,,,1,1.5,,,,2,,,
+grackle                      ,,,,,,,,,,,,1.5
+scarlet tanager              ,,,,,,,0.5,,,,,
+summer tanager               ,,,,,,,,2,,,,
+cardinal                     ,,,1,,,,,,,1,,1
+indigo bunting               ,,,1.5,,,,,,,,,1.5
+goldfinch                    ,1,0.5,,,,,,,,,,
+towhee                       ,,0.25,1.5,,,,1,,,,1,1
+slate-colored junco          ,,,,,0.5,,,,,,,
+field sparrow                ,2,1,3,,,,,,,,,
+white throated sparrow       ,,,,,,,1,,,,,
+song sparrow                 ,,,0.5,,,,,,,,,1

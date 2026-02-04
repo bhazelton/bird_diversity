@@ -32,17 +32,14 @@ def entropy(probabilities: list[float], base: Literal[2, 10, "e"] = 2) -> float:
         raise ValueError("The list of input probabilities does not sum to 1")
     else:
         pass
+    # remove the zeros -- they cause NaNs in the logs but should not contribute
+    # to the entropy
+
+    non_zero_probs = np.asarray(probabilities)[np.nonzero(probabilities)]
     if base == 2:
-        items = probabilities * np.log2(probabilities)
+        items = non_zero_probs * np.log2(non_zero_probs)
     elif base == 10:
-        items = probabilities * np.log10(probabilities)
+        items = non_zero_probs * np.log10(non_zero_probs)
     else:
-        items = probabilities * np.log(probabilities)
-    # don't keep NaNs -- they come from zeros, so do not contribute to the entropy
-    new_items = []
-    for item in items:
-        if np.isnan(item):
-            new_items.append(0)
-        else:
-            new_items.append(item)
-    return np.abs(-np.sum(new_items))
+        items = non_zero_probs * np.log(non_zero_probs)
+    return np.abs(-np.sum(items))

@@ -8,6 +8,7 @@ dynamic = ["version"]
 description ="Bird Diversity experiment example"
 dependencies = [
     "numpy",
+    "pandas",
     "pytest",
     "pytest-cov",
     "setuptools_scm>=8.1",

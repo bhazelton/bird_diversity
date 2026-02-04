@@ -2,7 +2,9 @@ name: bird_diversity
 channels:
   - conda-forge
 dependencies:
+  - jupyter
   - numpy
+  - pandas
   - pytest
   - pytest-cov
   - ruff

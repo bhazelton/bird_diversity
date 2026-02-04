@@ -8,6 +8,7 @@ dynamic = ["version"]
 description ="Bird Diversity experiment example"
 dependencies = [
     "numpy",
+    "matplotlib",
     "pandas",
     "pytest",
     "pytest-cov",

@@ -5,6 +5,7 @@ dependencies:
   - jupyter
   - numpy
   - pandas
+  - pre-commit
   - pytest
   - pytest-cov
   - ruff

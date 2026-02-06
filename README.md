@@ -30,7 +30,7 @@ The part after the `+g` is the git hash (N.B. the "g" is not part of the hash).
 If there is anything after the hash (e.g. `.d20260204` in this example) it means
 that there are local changes that are not included in a commit.
 There will be no `+g` if you are on a tagged version because the tag fully
-specifies the commit. 
+specifies the commit.
 
 
 ## testing
@@ -66,3 +66,10 @@ plugin to report our test coverage.
 
 Note:
 GitHub actions are disabled by default on forks.
+
+## pre-commit
+
+To use pre-commit to prevent committing code that does not follow the style of
+this repo you'll need to run `pre-commit install` in the top level directory.
+
+To run pre-commit at any time use `pre-commit run --all`

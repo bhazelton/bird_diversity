@@ -1,6 +1,7 @@
 """
 Compute the Shannon entropy of a list of probabilities.
 """
+
 from typing import Literal
 
 import numpy as np

@@ -16,4 +16,3 @@ except (LookupError, ImportError):  # pragma: no cover
     # don't set anything if the package is not installed
     with contextlib.suppress(PackageNotFoundError):
         __version__ = version("bird_diversity")
-

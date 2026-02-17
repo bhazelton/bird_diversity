@@ -33,6 +33,9 @@ classifiers = [
 [tool.ruff.lint.pydocstyle]
 convention = "numpy"
 
+[tool.bandit.assert_used]
+skips = ["*/*_test.py", "*/test_*.py"]
+
 # Optional upgrades beyond the default ruff rules
 # [tool.ruff.lint]
 # select = [
